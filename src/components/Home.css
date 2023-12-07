@@ -15,7 +15,7 @@
     justify-content: center;
     text-align: center;
     padding:50px;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
   }
   
   .hours-table-title {
@@ -34,7 +34,7 @@
   
   .hours-table th, .hours-table td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
   }
   
   .hours-table th {
@@ -53,3 +53,9 @@
   }
   
 /* FAQ.css */
+.FAQ{
+  padding: 100px;
+}
+.accordion-button{
+  background-color: #f0f0f0;
+}

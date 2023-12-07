@@ -4,6 +4,7 @@ import HomeCarousel from './HomeCarousel';
 import Services from './Services';
 import HoursTable from './HoursTable';
 import FAQ from './FAQ';
+import Form from './Form';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Services/>
       <div className='filler'><h3>more info here</h3></div>
       <FAQ/>
+      <Form/>
     </div>
   );
 };

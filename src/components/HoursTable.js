@@ -12,8 +12,8 @@ const HoursTable = () => {
     ];
   
     return (
-      <div className="hours-table-container">
-        <h2 className="hours-table-title">Shop Opening Hours</h2>
+      <div className="hours-table-container" id="Hours">
+        <h2 className="hours-table-title"> Opening Hours</h2>
         <table className="hours-table">
           <thead>
             <tr>

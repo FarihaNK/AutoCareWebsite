@@ -78,3 +78,10 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/* Navbar.css */
+.Icon{
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}

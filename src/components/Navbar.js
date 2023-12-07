@@ -17,6 +17,9 @@ const Navbar = () => {
             <a class="nav-link" href="#Hours">Hours</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#FAQ">FAQ</a>
           </li>
           <li class="nav-item dropdown">

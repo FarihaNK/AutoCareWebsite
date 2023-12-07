@@ -12,6 +12,7 @@ const Home = () => {
       <div className='intro'>Give your car...WINGS!<br/>more info here</div>
       <HoursTable/>
       <Services/>
+      <div className='filler'><h3>more info here</h3></div>
       <FAQ/>
     </div>
   );

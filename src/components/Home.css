@@ -7,6 +7,14 @@
     padding: 50px;
     font-size: 30px;
   }
+
+.filler {
+  background-color: #f0f0f0;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+}
+
 /* HoursTable.css */
 .hours-table-container {
     display: flex;
@@ -54,8 +62,19 @@
   
 /* FAQ.css */
 .FAQ{
-  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .accordion-button{
   background-color: #f0f0f0;
+}
+
+/* Services.css */
+.Services{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

@@ -5,6 +5,7 @@ import Services from './Services';
 import HoursTable from './HoursTable';
 import FAQ from './FAQ';
 import Form from './Form';
+import Reviews from './Reviews';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <div className='intro'>Give your car...WINGS!<br/>more info here</div>
       <HoursTable/>
       <Services/>
-      <div className='filler'><h3>more info here</h3></div>
+      <Reviews/>
       <FAQ/>
       <Form/>
     </div>

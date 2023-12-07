@@ -6,6 +6,7 @@
     text-align: center;
     padding: 50px;
     font-size: 30px;
+    background-color: rgb(245, 203, 124);
   }
 
 .filler {
@@ -56,7 +57,7 @@
   }
   
   .closed-day {
-    background-color: #e3a8a8;
+    background-color: rgb(245, 203, 124);
     color: black;
   }
   
@@ -64,19 +65,31 @@
 .FAQ{
   padding-left: 200px;
   padding-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .accordion-button{
   background-color: #f0f0f0;
+}
+.accordion-button:focus {
+  background-color: rgb(245, 203, 124);
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(245, 203, 124);
+}
+
+.accordion-button {
+  color: #000; /* Change the text color if needed */
 }
 
 /* Services.css */
 .Services{
   padding-left: 200px;
   padding-right: 200px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* Navbar.css */
@@ -99,4 +112,15 @@
 
 .form-control{
   width: 500px;
+}
+
+/* Reviews.css */
+.Reviews{
+  height: 500px;
+  text-align: center;
+  padding: 100px;
+  background-color: rgb(245, 203, 124);
+}
+.Button{
+  background-color: rgb(245, 203, 124);
 }

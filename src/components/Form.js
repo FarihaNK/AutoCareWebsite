@@ -17,8 +17,8 @@ const Form = () => {
         <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
     </div>
-    <div class="SubmitButton">
-    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    <div>
+    <button type="submit" class="btn Button mb-3">Submit</button>
     </div>
     </div>
   );

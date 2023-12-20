@@ -18,7 +18,7 @@
 /* hours and location.css */
 .hours-location{
   display: flex;
-  background-color: #f0f0f0;
+  background-color: white;
   justify-content:space-evenly;
   padding:50px;
 }
@@ -72,7 +72,7 @@
   padding-bottom: 100px;
 }
 .accordion-button{
-  background-color: #f0f0f0;
+  background-color: #666464;
 }
 .accordion-button:focus {
   background-color: rgb(245, 203, 124);
@@ -84,7 +84,7 @@
 }
 
 .accordion-button {
-  color: #000; /* Change the text color if needed */
+  color: white; /* Change the text color if needed */
 }
 
 /* Services.css */
@@ -93,6 +93,7 @@
   padding-right: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #f0f0f0;
 }
 
 .card {
@@ -151,15 +152,23 @@
   background-size: cover;
 }
 
-/* Form.css */
-.Form{
+/* form and contacts.css */
+.form-contacts{
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 100px;
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
+  justify-content:space-evenly;
+  padding:100px;
+}
+
+
+/* Form.css */
+.Form, .contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  max-width: 300px;
+  background-color: #f0f0f0;
 }
 
 .form-control{

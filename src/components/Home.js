@@ -6,6 +6,7 @@ import HoursTable from './HoursTable';
 import FAQ from './FAQ';
 import Form from './Form';
 import Reviews from './Reviews';
+import Location from './Location';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeCarousel/>
       <div className='intro'>Give your car...WINGS!<br/>more info here</div>
       <HoursTable/>
+      <Location/>
       <Services/>
       <Reviews/>
       <FAQ/>

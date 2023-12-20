@@ -13,8 +13,10 @@ const Home = () => {
     <div>
       <HomeCarousel/>
       <div className='intro'>Give your car...WINGS!<br/>more info here</div>
-      <HoursTable/>
-      <Location/>
+      <div className='hours-location'>
+        <HoursTable/>
+        <Location/>
+      </div>
       <Services/>
       <Reviews/>
       <FAQ/>

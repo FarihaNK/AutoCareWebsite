@@ -15,26 +15,29 @@
   padding: 50px;
   text-align: center;
 }
+/* hours and location.css */
+.hours-location{
+  display: flex;
+  background-color: #f0f0f0;
+  justify-content:space-evenly;
+  padding:50px;
+}
+.map{
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-/* HoursTable.css */
-.hours-table-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding:50px;
-    background-color: #f0f0f0;
-  }
-  
-  .hours-table-title {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
+
+}
+.location-title, .hours-table-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}  
   
   .hours-table {
-    width: 100%;
-    max-width: 400px;
+    width: 450px;
+    height: 450px;
+    max-width: 450px;
+    max-height: 450px;
     border-collapse: collapse;
     overflow: hidden;
     border-radius: 10px;
@@ -117,7 +120,7 @@
 }
 
 .card:hover .card-body {
-  transform: translateY(-150%);
+  transform: translateY(-130%);
 }
 
 .card:hover .card-title,

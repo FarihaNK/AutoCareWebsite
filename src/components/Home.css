@@ -37,8 +37,8 @@
     max-width: 400px;
     border-collapse: collapse;
     overflow: hidden;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .hours-table th, .hours-table td {
@@ -85,11 +85,60 @@
 }
 
 /* Services.css */
-.Services{
+.Services {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease-out;
+}
+
+.card:hover {
+  background-color: rgb(245, 203, 124);
+}
+
+.card img {
+  transition: transform 0.3s ease-out;
+}
+
+.card:hover img {
+  transform: translateY(-100%);
+}
+
+.card .card-body {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease-out;
+}
+
+.card:hover .card-body {
+  transform: translateY(-150%);
+}
+
+.card:hover .card-title,
+.card:hover .card-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.card .additional-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.3s ease-out, color 0.3s ease-out;
+}
+
+.card:hover .additional-text {
+  opacity: 1;
+  color: #000;
 }
 
 /* Navbar.css */

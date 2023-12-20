@@ -152,6 +152,29 @@
   background-size: cover;
 }
 
+.navbar-nav .nav-link {
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Set the initial left position to 0 */
+  width: 0;
+  height: 3px;
+  background-color: rgb(245, 203, 124); /* Set the color of the underline */
+  transition: width 0.3s ease, left 0.3s ease; /* Add a smooth transition effect for width and left */
+}
+
+.navbar-nav .nav-link:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
 /* form and contacts.css */
 .form-contacts{
   display: flex;
@@ -159,6 +182,20 @@
   justify-content:space-evenly;
   padding:100px;
 }
+a {
+  text-decoration: none;
+}
+
+.facebook-icon {
+  width: 40px;
+  height: 40px;
+  transition: filter 0.2s; /* Add a smooth transition effect */
+}
+
+a:hover .facebook-icon {
+  filter: brightness(2) hue-rotate(180deg);
+}
+
 
 
 /* Form.css */

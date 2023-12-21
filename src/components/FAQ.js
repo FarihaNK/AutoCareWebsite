@@ -51,8 +51,6 @@ const FAQ = () => {
             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
             <div class="accordion-body">
             While appointments are recommended, we also welcome walk-ins. Contact us to schedule a convenient time or stop by, and we'll do our best to accommodate you.
-
-
             </div>
             </div>
         </div>

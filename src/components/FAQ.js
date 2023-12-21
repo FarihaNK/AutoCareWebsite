@@ -9,68 +9,50 @@ const FAQ = () => {
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                Question #1
+                How often should I get an oil change?
             </button>
             </h2>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, 
-                until the collapse plugin adds the appropriate classes that we use to style each element. 
-                These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
-                You can modify any of this with custom CSS or overriding our default variables. 
-                It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, 
-                though the transition does limit overflow.
+            We recommend a regular oil change every 3,000 to 5,000 miles, depending on your vehicle and the type of oil used. Refer to your vehicle's manual for manufacturer-specific recommendations.
             </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Question #2
+            How do I know if my brakes need service?
             </button>
             </h2>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
             <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, 
-                until the collapse plugin adds the appropriate classes that we use to style each element. 
-                These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
-                You can modify any of this with custom CSS or overriding our default variables. 
-                It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, 
-                though the transition does limit overflow.
+            Warning signs include squeaking or grinding noises, reduced responsiveness, or a vibrating steering wheel. If you experience any of these issues, it's crucial to have your brakes inspected promptly.
             </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Question #3
+            When should I have my transmission serviced?
             </button>
             </h2>
             <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, 
-                until the collapse plugin adds the appropriate classes that we use to style each element. 
-                These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
-                You can modify any of this with custom CSS or overriding our default variables. 
-                It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, 
-                though the transition does limit overflow.
+            Regular transmission maintenance is crucial. We recommend servicing every 30,000 to 60,000 miles, but it's essential to check your vehicle's manual for specific recommendations.
             </div>
             </div>
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                Question #4
+            Do I need an appointment for autocare services?
             </button>
             </h2>
             <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
             <div class="accordion-body">
-                <strong>This is the fourth item's accordion body.</strong> It is hidden by default, 
-                until the collapse plugin adds the appropriate classes that we use to style each element. 
-                These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
-                You can modify any of this with custom CSS or overriding our default variables. 
-                It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, 
-                though the transition does limit overflow.
+            While appointments are recommended, we also welcome walk-ins. Contact us to schedule a convenient time or stop by, and we'll do our best to accommodate you.
+
+
             </div>
             </div>
         </div>

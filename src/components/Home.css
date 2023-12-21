@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    text-align: left;
     padding: 50px;
-    font-size: 30px;
     background-color: rgb(245, 203, 124);
   }
 
@@ -182,23 +182,21 @@
   justify-content:space-evenly;
   padding:100px;
 }
-a {
+.socials a {
   text-decoration: none;
+  margin-right: 20px;
 }
 
-.facebook-icon {
+.facebook-icon, .instagram-icon {
   width: 40px;
   height: 40px;
   transition: filter 0.2s; /* Add a smooth transition effect */
 }
 
-a:hover .facebook-icon {
+a:hover .facebook-icon, a:hover .instagram-icon{
   filter: brightness(2) hue-rotate(180deg);
 }
 
-
-
-/* Form.css */
 .Form, .contacts{
   display: flex;
   flex-direction: column;
@@ -210,6 +208,10 @@ a:hover .facebook-icon {
 
 .form-control{
   width: 500px;
+}
+.socials{
+  display: flex;
+  flex-direction:row;
 }
 
 /* Reviews.css */

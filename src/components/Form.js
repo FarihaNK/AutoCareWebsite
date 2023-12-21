@@ -1,5 +1,7 @@
 import './Home.css';
 import React, { useState } from 'react';
+import instagram from './Images/instagram.png';
+import facebook from './Images/facebook.png';
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -33,6 +35,8 @@ const Form = () => {
   };
 
   return (
+    <div className='form-contacts'>
+
     <div className="Form" id="Form">
       <h4>Have questions? Email us!</h4>
       <br />
@@ -84,6 +88,23 @@ const Form = () => {
           </button>
         </div>
       </form>
+    </div>
+
+    <div className='contacts'>
+          <h4>Contact Us</h4> <br/>
+          <div className='socials'>
+          <a href={"https://www.facebook.com/ShahnawazAutoCare/"} target="_blank" rel="noopener noreferrer">
+            <img className="facebook-icon" src={facebook} alt="Facebook" style={{ width: '40px', height: '40px' }} />
+          </a>
+          <a href={"https://www.instagram.com/shahnawazautocare/"} target="_blank" rel="noopener noreferrer">
+            <img className="instagram-icon" src={instagram} alt="Instagram" style={{ width: '40px', height: '40px' }} />
+          </a>
+          </div>
+          <br/>
+          <p>phone number</p>
+          <p>+1 (416) 742 9615</p>
+          <p>emailaddress.email.com</p>
+        </div>
     </div>
   );
 };

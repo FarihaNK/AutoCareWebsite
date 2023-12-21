@@ -18,9 +18,9 @@ const HomeCarousel = () => {
         {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> */}
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p class="">Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg Button" href="https://github.com/FarihaNK/">Sign up today</a></p>
+            <h1>Customer-Centric Approach</h1>
+            <p class="">Your satisfaction is our priority. We strive to build lasting relationships with our customers through transparent communication and exceptional service.</p>
+            <p><a class="btn btn-lg Button" href="#Form">Call us today</a></p>
           </div>
         </div>
       </div>
@@ -29,9 +29,9 @@ const HomeCarousel = () => {
         {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> */}
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg Button" href="https://github.com/FarihaNK/AutoCareWebsite">Learn more</a></p>
+            <h1>Expert Technicians</h1>
+            <p>Our team of skilled and certified technicians is dedicated to providing precision services with a keen attention to detail.</p>
+            <p><a class="btn btn-lg Button" href="#Form">Call us today</a></p>
           </div>
         </div>
       </div>
@@ -40,9 +40,9 @@ const HomeCarousel = () => {
         {/* <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg> */}
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg Button" href="https://github.com/FarihaNK/GameCreatorHub">Browse gallery</a></p>
+            <h1>Comprehensive Services</h1>
+            <p>From routine maintenance to complex repairs, we offer a wide range of autocare services to keep your vehicle running smoothly.</p>
+            <p><a class="btn btn-lg Button" href="#Services">Learn more</a></p>
           </div>
         </div>
       </div>

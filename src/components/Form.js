@@ -24,9 +24,9 @@ const Form = () => {
     e.preventDefault();
   
     // Email.js service configuration
-    const serviceId = 'service_83esci7';
-    const templateId = 'template_7m16pvf'; 
-    const userId = 'xgb7mGmFLF9wHZign';
+    const serviceId = ''; //SERVICE ID
+    const templateId = ''; //TEMPLATE ID
+    const userId = ''; //USER ID
   
     // Prepare template parameters
     const templateParams = {

@@ -9,30 +9,22 @@
     background-color: rgb(245, 203, 124);
   }
 
-.filler {
-  background-color: #f0f0f0;
-  height: 150px;
-  padding: 50px;
-  text-align: center;
-}
+
 /* hours and location.css */
 .hours-location{
   display: flex;
   background-color: white;
   justify-content:space-evenly;
   padding:50px;
-}
+  }
 .map{
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-
-}
+  }
 .location-title, .hours-table-title {
   font-size: 1.5rem;
   margin-bottom: 30px;
-}  
-  
+  }
   .hours-table {
     width: 450px;
     height: 450px;
@@ -43,49 +35,45 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
   .hours-table th, .hours-table td {
     padding: 10px;
     border: 1px solid #dddddd;
   }
-  
   .hours-table th {
     background-color: #666464;
     color: white;
   }
-  
   .hours-table tbody tr:hover {
     background-color: #d5d3d3;
     color: black;
   }
-  
   .closed-day {
     background-color: rgb(245, 203, 124);
     color: black;
   }
-  
+
+
 /* FAQ.css */
 .FAQ{
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
-}
+  }
 .accordion-button{
   background-color: #666464;
-}
+  }
 .accordion-button:focus {
   background-color: rgb(245, 203, 124);
   box-shadow: none !important;
-}
-
+  }
 .accordion-button:not(.collapsed) {
   background-color: rgb(245, 203, 124);
-}
-
+  }
 .accordion-button {
   color: white; /* Change the text color if needed */
-}
+  }
+
 
 /* Services.css */
 .Services {
@@ -100,36 +88,30 @@
   position: relative;
   overflow: hidden;
   transition: background-color 0.3s ease-out;
-}
+  }
 
 .card:hover {
   background-color: rgb(245, 203, 124);
-}
-
+  }
 .card img {
   transition: transform 0.3s ease-out;
-}
-
+  }
 .card:hover img {
   transform: translateY(-100%);
-}
-
+  }
 .card .card-body {
   position: relative;
   z-index: 1;
   transition: transform 0.3s ease-out;
-}
-
+  } 
 .card:hover .card-body {
   transform: translateY(-130%);
-}
-
+  }
 .card:hover .card-title,
 .card:hover .card-text {
   opacity: 0;
   transition: opacity 0.3s ease-out;
-}
-
+  }
 .card .additional-text {
   position: absolute;
   top: 0;
@@ -138,26 +120,24 @@
   text-align: left;
   opacity: 0;
   transition: opacity 0.3s ease-out, color 0.3s ease-out;
-}
-
+  }
 .card:hover .additional-text {
   opacity: 1;
   color: #000;
-}
+  }
+
 
 /* Navbar.css */
 .Icon{
   height: 50px;
   width: 50px;
   background-size: cover;
-}
-
+  }
 .navbar-nav .nav-link {
   position: relative;
   overflow: hidden;
   margin-left: 15px;
-}
-
+  }
 .navbar-nav .nav-link:after {
   content: "";
   position: absolute;
@@ -167,12 +147,11 @@
   height: 3px;
   background-color: rgb(245, 203, 124); /* Set the color of the underline */
   transition: width 0.3s ease, left 0.3s ease; /* Add a smooth transition effect for width and left */
-}
-
+  }
 .navbar-nav .nav-link:hover:after {
   width: 100%;
   left: 0;
-}
+  }
 
 
 /* form and contacts.css */
@@ -180,23 +159,20 @@
   display: flex;
   background-color: #f0f0f0;
   justify-content:space-evenly;
-  padding:100px;
-}
+  padding:100px;  
+  }
 .socials a {
   text-decoration: none;
   margin-right: 20px;
-}
-
+  }
 .facebook-icon, .instagram-icon {
   width: 40px;
   height: 40px;
   transition: filter 0.2s; /* Add a smooth transition effect */
-}
-
+  }
 a:hover .facebook-icon, a:hover .instagram-icon{
   filter: brightness(2) hue-rotate(180deg);
-}
-
+  }
 .Form, .contacts{
   display: flex;
   flex-direction: column;
@@ -204,15 +180,15 @@ a:hover .facebook-icon, a:hover .instagram-icon{
   text-align: left;
   max-width: 300px;
   background-color: #f0f0f0;
-}
-
+  }
 .form-control{
   width: 500px;
-}
+  }
 .socials{
   display: flex;
   flex-direction:row;
-}
+  }
+
 
 /* Reviews.css */
 .Reviews{
@@ -220,7 +196,9 @@ a:hover .facebook-icon, a:hover .instagram-icon{
   text-align: center;
   padding: 100px;
   background-color: rgb(245, 203, 124);
-}
+  }
+
+  
 .Button{
   background-color: rgb(245, 203, 124);
-}
+  }

@@ -13,16 +13,15 @@ const Home = () => {
     <div>
       <HomeCarousel/>
       <div className='intro'>
-        {/* <h1>Give your car...WINGS!</h1> */}
-        <br/><br/>
+        <h1>Give your car...WINGS!</h1>
+        <br/>
         <p>At Shahnawaz AutoCare, we understand that your vehicle is more than just a mode of transportation; 
         it's an essential part of your daily life. With a passion for automotive excellence, 
         we take pride in offering top-notch autocare services that go beyond the ordinary.
         Discover the difference at Shahnawaz AutoCare. Our friendly staff is ready to welcome you to a world of autocare excellence.
         Whether you drive a sedan, SUV, or truck, your vehicle is in capable hands.
         Give your car WINGS at Shahnawaz AutoCare.
-
-</p>
+        </p>
       </div>    
       <div className='hours-location'>
         <HoursTable/>
